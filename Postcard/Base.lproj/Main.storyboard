@@ -87,6 +87,13 @@
                                     <action selector="sendMailButtonPressed:" destination="9PK-j7-hhg" eventType="touchUpInside" id="VYH-Jr-j7q"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xgG-VY-1dd">
+                                <rect key="frame" x="16" y="170" width="226" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -96,6 +103,7 @@
                         <outlet property="mailButton" destination="9Gf-6g-keR" id="Wmp-JE-0un"/>
                         <outlet property="massageLabel" destination="zgt-kq-Wvi" id="jNH-co-qHh"/>
                         <outlet property="massageLabelRev" destination="icz-wC-6Il" id="dMu-NJ-CrM"/>
+                        <outlet property="nameLabel" destination="xgG-VY-1dd" id="PAu-nx-9KC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Idl-tg-N1B" userLabel="First Responder" sceneMemberID="firstResponder"/>
